@@ -1,0 +1,53 @@
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.header{
+    background-color: rgb(212, 188, 252);
+    height:48px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.hls, .hrs{
+    display:flex;
+    align-items: center;
+}
+
+.headermargin{
+    display:flex;
+}
+
+.hahl{
+    width: 1200px;
+    min-width: 600px;
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.marginleft, .marginright{
+    flex:1 1 80px;
+    min-width: 20px;
+    background-color: rgb(212, 188, 252);
+}
+
+.icon{
+    height:32px;
+    width:32px;
+    margin:8px;
+}
+
+.sitename{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+
+}
+
+.headliner{
+    background-color: rgb(212, 188, 252);
+
+}
