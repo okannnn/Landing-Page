@@ -33,7 +33,10 @@ body {
     flex:1 1 80px;
     min-width: 20px;
     background-color: rgb(212, 188, 252);
+    
 }
+
+
 
 .icon{
     height:32px;
@@ -49,5 +52,76 @@ body {
 
 .headliner{
     background-color: rgb(212, 188, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
 
+}
+
+.HL-text{
+    margin:128px 32px; 
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+
+.coverimg{
+    max-height:300px;
+    height:auto;
+    margin:128px 32px; 
+    min-width: 0;
+    flex:0 2 auto;
+    object-fit:fill;
+}
+
+
+
+
+
+
+
+.content1{
+    display: flex;
+}
+
+#ml1, #mr1{
+    background-color: rgb(255, 253, 162);
+}
+
+.body1{
+    width: 1200px;
+    min-width: 600px;
+    flex:0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 253, 162);
+}
+
+.infobox-set{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.infobox{
+    width:128px;
+    height:128px;
+    border: rgb(255, 254, 173) 4px outset;
+    margin:32px;
+
+}
+
+.textbox{
+    width:128px;
+    margin:32px;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.infoimg{
+    width:128px;
 }
